@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/kinebots-ros/devel
+
+Name: kinebots_2dnav
+Description: Description of kinebots_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/kinebots-ros/devel/lib 
+Requires: 

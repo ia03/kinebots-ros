@@ -1,0 +1,2 @@
+kinebots_2dnav:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/kinebots-ros/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/kinebots-ros/install -G Unix Makefiles
