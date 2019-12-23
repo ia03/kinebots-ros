@@ -2,6 +2,7 @@
 
     <master auto="start"/>
 
+    <node pkg="kinebots_2dnav" type="motor_node.py" name="motor_node" />
     <include file="$(find rplidar_ros)/launch/rplidar.launch" />
     <node pkg="tf" type="static_transform_publisher" name="laser_broadcaster" args="0 0 0 0 0 0 base_link laser 100" />
     <node name="laser_scan_matcher" pkg="laser_scan_matcher" type="laser_scan_matcher_node">

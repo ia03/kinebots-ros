@@ -7,8 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/kinebots-ros/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ubuntu/kinebots-ros/devel/lib:$LD_LIBRARY_PATH"
 export PWD="/home/ubuntu/kinebots-ros/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/kinebots-ros/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/ubuntu/kinebots-ros/src:$ROS_PACKAGE_PATH"
+export PYTHONPATH="/home/ubuntu/kinebots-ros/devel/lib/python2.7/dist-packages:$PYTHONPATH"

@@ -126,6 +126,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/kinebots-ros/build/gtest/cmake_install.cmake")
+  include("/home/ubuntu/kinebots-ros/build/follow_waypoints/cmake_install.cmake")
   include("/home/ubuntu/kinebots-ros/build/rplidar_ros/cmake_install.cmake")
   include("/home/ubuntu/kinebots-ros/build/kinebots_2dnav/cmake_install.cmake")
 
